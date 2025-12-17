@@ -35,17 +35,88 @@ body, ul {
 
 #about_us, #sections, #projects, #gallery, #english {
     display: none;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+#about_us h1 {
+    font-family: Luminary, fantasy;
+    color:rgb(173, 92, 239);
+    letter-spacing: 3px;
+    text-align: center;
+}
+#about_us h2 {
+    font-family: Trebuchet MS, sans-serif;
+    color:rgb(184, 32, 121);
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 50px;
+    font-style: italic;
+}
+
+#sections h1 {
+    font-family: Luminary, fantasy;
+    color:rgb(173, 92, 239);
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#projects h1 {
+    font-family: Luminary, fantasy;
+    color:rgb(173, 92, 239);
+    letter-spacing: 3px;
+    text-align: center;
 }
 
 #content > div {
     width: 100%;
     height: 100vh;
-    color:rgb(173, 92, 239);
-    justify-content: center;
-    font-family: Luminary, fantasy;
-    letter-spacing: 2px;
-    text-align: center;
+    color:white;
+    font-family: Trebuchet MS, sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+}
 
+#menu_sec {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 190px;
+}
+
+#menu_sec button {
+    background-color: #1e1919;
+    margin: 0 15px;
+    color:rgb(32, 184, 136);
+    padding: 10px 10px;
+    display: block;
+    font-family: Trebuchet MS, fantasy;
+    letter-spacing: 1px;
+}
+
+#menu_sec button:hover {
+    background-color: #034741;
+}
+
+#menu_proj {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 190px;
+}
+
+#menu_proj button {
+    background-color: #1e1919;
+    margin: 0 15px;
+    color:rgb(55, 132, 210);
+    padding: 10px 10px;
+    display: block;
+    font-family: Trebuchet MS, fantasy;
+    letter-spacing: 1px;
+}
+
+#menu_proj button:hover {
+    background-color: #0b0347;
 }
     
     
