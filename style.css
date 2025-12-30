@@ -33,36 +33,29 @@ body, ul {
 }
 
 
-#about_us, #sections, #projects, #gallery, #english {
+#about_us, #sections, #projects, #gallery, #english, #hardware, #programming, #dj, #music_prod, #podcast, #electr_flute, #synth,
+#theremin, #pianola {
     display: none;
     font-family: Trebuchet MS, sans-serif;
 }
 
 #about_us h1 {
-    font-family: Luminary, fantasy;
+    font-family: Trebuchet MS, sans-serif;
     color:rgb(173, 92, 239);
     letter-spacing: 3px;
     text-align: center;
 }
-#about_us h2 {
+#about_us h2, #electr_flute h2, #synth h2, #theremin h2, #pianola h2 {
     font-family: Trebuchet MS, sans-serif;
     color:rgb(184, 32, 121);
     letter-spacing: 1px;
     text-align: left;
-    margin-left: 15px;
     margin-top: 50px;
     font-style: italic;
 }
 
-#sections h1 {
-    font-family: Luminary, fantasy;
-    color:rgb(173, 92, 239);
-    letter-spacing: 3px;
-    text-align: center;
-}
-
-#projects h1 {
-    font-family: Luminary, fantasy;
+#sections h1, #projects h1 {
+    font-family: Trebuchet MS, sans-serif;
     color:rgb(173, 92, 239);
     letter-spacing: 3px;
     text-align: center;
@@ -74,7 +67,11 @@ body, ul {
     color:white;
     font-family: Trebuchet MS, sans-serif;
     letter-spacing: 1px;
-    text-align: left;
+    text-align: justify;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+    box-sizing: border-box;
 }
 
 #menu_sec {
@@ -117,6 +114,21 @@ body, ul {
 
 #menu_proj button:hover {
     background-color: #0b0347;
+}
+
+#hardware h1, #programming h1, #dj h1, #music_prod h1, #podcast h1 {
+    font-family: Trebuchet MS, sans-serif;
+    color:rgb(173, 92, 239);
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 190px;
+}
+#electr_flute h1, #synth h1, #theremin h1, #pianola h1 {
+    font-family: Trebuchet MS, sans-serif;
+    color:rgb(173, 92, 239);
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 100px;
 }
     
     
