@@ -42,7 +42,7 @@ body, ul {
 }
 
 
-#about_us, #sections, #projects, #gallery, #english, #hardware, #programming, #dj, #music_prod, #podcast, #electr_flute, #synth,
+#about_us, #sections, #projects, #english, #hardware, #programming, #dj, #music_prod, #podcast, #electr_flute, #synth,
 #theremin, #pianola {
     display: block;
     font-family: Trebuchet MS, sans-serif;
