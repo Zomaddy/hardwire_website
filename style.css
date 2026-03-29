@@ -1,5 +1,5 @@
 body, ul {
-    background-color: #1e1919;
+    background-color: #000000;
     margin: 0;
     padding-top: 40px;
 }
@@ -7,29 +7,30 @@ body, ul {
 #menu {
     display: flex; 
     justify-content: center;
-    margin-bottom: 70px;
+    margin-bottom: 150px;
+    margin-top: 20px;
 }
 
 #menu button {
-    background-color: #1e1919;
-    margin: 0 15px;
-    color: rgb(173, 92, 239);
+    background-color: #000000;
+    margin: 0 30px;
+    color: #FBFF87;
     padding: 10px 10px;
     display: block;
-    font-family: Trebuchet MS, fantasy;
+    font-family: Courier, monospace;
     letter-spacing: 1px;
 }
 
 #menu button:hover {
-    background-color: #280347;
+    background-color: #666836;
 }
 
-#photo_section img {
-    width: 600px;
+#photo_section svg {
+    max-width: 1000px;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
-    filter: brightness(90%) contrast(90%);
 }
 
 #flute_photo img {
