@@ -2,23 +2,26 @@ body, ul {
     background-color: #000000;
     margin: 0;
     padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 #menu {
     display: flex; 
     justify-content: center;
     margin-bottom: 150px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #menu button {
     background-color: #000000;
     margin: 0 30px;
-    color: #FBFF87;
+    color: #FFFFFF;
     padding: 10px 10px;
     display: block;
     font-family: Courier, monospace;
+    font-size: 20px;
     letter-spacing: 1px;
+    border: none;
 }
 
 #menu button:hover {
@@ -166,27 +169,50 @@ body, ul {
 #about_us, #sections, #projects, #lang_switch, #hardware, #programming, #dj, #music_prod, #podcast, #electr_flute, #synth,
 #theremin, #pianola {
     display: block;
-    font-family: Trebuchet MS, sans-serif;
+    font-family: Courier, monospace;
 }
 
 #about_us h1 {
-    font-family: Trebuchet MS, sans-serif;
-    color:rgb(173, 92, 239);
+    font-family: Courier, monospace;
+    color:#FBFF87;
     letter-spacing: 3px;
     text-align: center;
 }
+
+.socials_icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 15px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.gh_icon a {
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 15px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
 #about_us h2, #electr_flute h2, #synth h2, #theremin h2, #pianola h2 {
-    font-family: Trebuchet MS, sans-serif;
-    color:rgb(184, 32, 121);
+    font-family: Courier, monospace;
+    color:#C6AC8F;
     letter-spacing: 1px;
     text-align: left;
     margin-top: 50px;
-    font-style: italic;
 }
 
-#sections h1, #projects h1 {
-    font-family: Trebuchet MS, sans-serif;
-    color:rgb(173, 92, 239);
+#sections h1 {
+    font-family: Courier, monospace;
+    color:#D80032;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#projects h1 {
+    font-family: Courier, monospace;
+    color:#7353BA;
     letter-spacing: 3px;
     text-align: center;
 }
@@ -195,7 +221,7 @@ body, ul {
     width: 100%;
     min-height: 100vh;
     color:white;
-    font-family: Trebuchet MS, sans-serif;
+    font-family: Courier, monospace;
     letter-spacing: 1px;
     text-align: justify;
     max-width: 900px;
@@ -207,22 +233,24 @@ body, ul {
 #menu_sec {
     display: flex; 
     justify-content: center;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     margin-top: 190px;
 }
 
 #menu_sec button {
-    background-color: #1e1919;
+    background-color: #000000;
     margin: 0 15px;
-    color:rgb(32, 184, 136);
+    color:#8D99AE;
     padding: 10px 10px;
     display: block;
-    font-family: Trebuchet MS, fantasy;
+    font-family: Courier, monospace;
     letter-spacing: 1px;
+    border: none;
+    font-size: 16px;
 }
 
 #menu_sec button:hover {
-    background-color: #034741;
+    background-color: #EF233C;
 }
 
 #menu_proj {
@@ -233,28 +261,30 @@ body, ul {
 }
 
 #menu_proj button {
-    background-color: #1e1919;
+    background-color: #000000;
     margin: 0 15px;
-    color:rgb(55, 132, 210);
+    color: #EFC3F5;
     padding: 10px 10px;
     display: block;
-    font-family: Trebuchet MS, fantasy;
+    font-family: Courier, monospace;
     letter-spacing: 1px;
+    border: none;
+    font-size: 16px;
 }
 
 #menu_proj button:hover {
-    background-color: #0b0347;
+    background-color: #2F195F;
 }
 
 #hardware h1, #programming h1, #dj h1, #music_prod h1, #podcast h1 {
-    font-family: Trebuchet MS, sans-serif;
-    color:rgb(173, 92, 239);
+    font-family: Courier, monospace;
     letter-spacing: 3px;
     text-align: center;
     margin-bottom: 190px;
+    color: #D80032 ;
 }
 #electr_flute h1, #synth h1, #theremin h1, #pianola h1 {
-    font-family: Trebuchet MS, sans-serif;
+    font-family: Courier, monospace;
     color:rgb(173, 92, 239);
     letter-spacing: 3px;
     text-align: center;

@@ -105,7 +105,7 @@ const translator = {
         piano_title: "PLAYER PIANO",
         piano_subtitle: "How did first player pianos work?",
         piano_text: "The pieces played were recorded on a paper tape covered with holes, with cutouts corresponding to the pitch and duration of the notes. The tape moved over a cylinder with holes. A stream of air entering through the hole caused a piano hammer to strike a string. This continued until the tape was moved to a location without a cutout.",
-        btn_lang: "POLISH"
+        btn_lang: "POLSKI"
     }
 };
 
