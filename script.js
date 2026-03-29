@@ -144,7 +144,7 @@ function showView(id) {
         const element = document.getElementById(id);
         if (element) {
             element.style.display = 'block';
-            // Odśwież obrazki wewnątrz sekcji (jeśli są)
+            
             const img = element.querySelector('img');
             if (img) img.src = img.src;
         }

@@ -33,6 +33,126 @@ body, ul {
     margin: 0 auto;
 }
 
+.animation_wire_1 {
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: miter;
+    stroke-width: 0.827205;
+    animation: wireColorChange1 15s infinite alternate;
+}
+
+.animation_wire_2 {
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: miter;
+    stroke-width: 0.827205;
+    animation: wireColorChange2 15s infinite alternate;
+}
+
+.animation_wire_3 {
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: miter;
+    stroke-width: 0.827205;
+    animation: wireColorChange3 15s infinite alternate;
+}
+
+.animation_dots_1 {
+    animation: dotColorChange1 15s infinite alternate;
+}
+
+.animation_dots_2 {
+    animation: dotColorChange2 15s infinite alternate;
+}
+
+.animation_dots_3 {
+    animation: dotColorChange3 15s infinite alternate;
+}
+
+@keyframes wireColorChange1 {
+    0% { stroke: #E01A4F; }    
+    10% { stroke: #3C0086; }
+    20% { stroke: #0A2363; }   
+    30% { stroke: #31C4B2; }  
+    40% { stroke: #FF216E; } 
+    50% { stroke: #D90627; } 
+    60% { stroke: #20B888; }   
+    70% { stroke: #E01A4F; } 
+    80% { stroke: #32C3B4; } 
+    90% { stroke: #820263; } 
+    100% { stroke: #0A2363; }  
+}
+
+@keyframes wireColorChange2 {
+    0% { stroke: #FDC12D; }    
+    10% { stroke: #E97AF3; }
+    20% { stroke: #D5335C; }   
+    30% { stroke: #FF3366; }  
+    40% { stroke: #FBFF12; } 
+    50% { stroke: #9197AF; } 
+    60% { stroke: #393D3F; }   
+    70% { stroke: #FAC22F; } 
+    80% { stroke: #E71D35; } 
+    90% { stroke: #01A777; } 
+    100% { stroke: #FBFF87; }  
+}
+
+@keyframes wireColorChange3 {
+    0% { stroke: #53B3CB; }    
+    10% { stroke: #6201B3; }
+    20% { stroke: #3D92CB; }   
+    30% { stroke: #21A4B6; }  
+    40% { stroke: #41EAD5; } 
+    50% { stroke: #F02D3B; } 
+    60% { stroke: #9B2226; }   
+    70% { stroke: #ED5A4A; } 
+    80% { stroke: #FF9F1C; } 
+    90% { stroke: #FB8B25; } 
+    100% { stroke: #3D92CB; }   
+}
+
+@keyframes dotColorChange1 {
+    0% { fill: #E01A4F; }    
+    10% { fill: #3C0086; }
+    20% { fill: #0A2363; }   
+    30% { fill: #31C4B2; }  
+    40% { fill: #FF216E; } 
+    50% { fill: #D90627; } 
+    60% { fill: #20B888; }   
+    70% { fill: #E01A4F; } 
+    80% { fill: #32C3B4; } 
+    90% { fill: #820263; } 
+    100% { fill: #0A2363; } 
+}
+
+@keyframes dotColorChange2 {
+    0% { fill: #FDC12D; }    
+    10% { fill: #E97AF3; }
+    20% { fill: #D5335C; }   
+    30% { fill: #FF3366; }  
+    40% { fill: #FBFF12; } 
+    50% { fill: #9197AF; } 
+    60% { fill: #393D3F; }   
+    70% { fill: #FAC22F; } 
+    80% { fill: #E71D35; } 
+    90% { fill: #01A777; } 
+    100% { fill: #FBFF87; } 
+}
+
+@keyframes dotColorChange3 {
+    0% { fill: #53B3CB; }    
+    10% { fill: #6201B3; }
+    20% { fill: #3D92CB; }   
+    30% { fill: #21A4B6; }  
+    40% { fill: #41EAD5; } 
+    50% { fill: #F02D3B; } 
+    60% { fill: #9B2226; }   
+    70% { fill: #ED5A4A; } 
+    80% { fill: #FF9F1C; } 
+    90% { fill: #FB8B25; } 
+    100% { fill: #3D92CB; } 
+}
+
 #flute_photo img {
     width: 600px;
     height: auto;
